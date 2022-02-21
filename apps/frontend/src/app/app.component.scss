@@ -1,0 +1,114 @@
+@import "../styles/scss/fontawesome.scss";
+@import "../styles/scss/regular.scss";
+@import "../styles/scss/solid.scss";
+@import '../styles/scss/abstracts/variables';
+
+// header styles
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  background-color: /* #192f2d */ $bg-color;
+}
+
+.row {
+  align-items: center;
+}
+
+.logo {
+  font-weight: bolder;
+  border: solid 1px #fff;
+  text-align: center;
+
+  h1 {
+    font-size: 2.7em;
+  }
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: solid 1px #fff;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    order: 3;
+  }
+}
+
+.account-container {
+  display: flex;
+  justify-content: end;
+
+  @media (max-width: 768px) {
+    order: 2;
+  }
+}
+
+.search {
+  width: 100%;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+}
+
+// footer styles
+.footer {
+  background-color: /* #192f2d */ $bg-color;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.year-container,
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.year {
+  color: #fff;
+  font-size: 15px;
+}
+
+.decorate-link {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    transition: 1s;
+  }
+}
+
+.git-name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+// main styles
+.main {
+  min-height: calc(100vh - 240px);
+  margin: 30px 0;
+}

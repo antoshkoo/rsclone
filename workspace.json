@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "auth": "libs/auth",
+    "components": "libs/components",
+    "film": "libs/film",
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e",
+    "home": "libs/home",
+    "models": "libs/models",
+    "movie": "libs/movie",
+    "news": "libs/news",
+    "schemas": "libs/schemas",
+    "search": "libs/search",
+    "services": "libs/services",
+    "user": "libs/user"
+  }
+}

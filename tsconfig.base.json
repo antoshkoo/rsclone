@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@clone/auth": ["libs/auth/src/index.ts"],
+      "@clone/categories": ["libs/categories/src/index.ts"],
+      "@clone/components": ["libs/components/src/index.ts"],
+      "@clone/film": ["libs/film/src/index.ts"],
+      "@clone/home": ["libs/home/src/index.ts"],
+      "@clone/models": ["libs/models/src/index.ts"],
+      "@clone/movie": ["libs/movie/src/index.ts"],
+      "@clone/news": ["libs/news/src/index.ts"],
+      "@clone/pipes": ["libs/pipes/src/index.ts"],
+      "@clone/schemas": ["libs/schemas/src/index.ts"],
+      "@clone/search": ["libs/search/src/index.ts"],
+      "@clone/services": ["libs/services/src/index.ts"],
+      "@clone/user": ["libs/user/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
